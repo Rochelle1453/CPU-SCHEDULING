@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+    background-color: black;
+}
+
+#header-area {
+    background-color: rgba(128, 0, 128, 0.2);
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.7);
+    color: #800080;
+}
+
+#content-area {
+    background-image: url();
+}
