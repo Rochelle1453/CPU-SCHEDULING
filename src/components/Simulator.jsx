@@ -255,14 +255,14 @@ export default function Simulator({ algorithm, onBack }) {
           <p className="text-xs sm:text-sm opacity-90">{algorithmDesc[algorithm]}</p>
         </div>
 
-        <div className="relative p-6 sm:p-10 space-y-6 sm:space-y-10" id="content-area">
+        <div className="relative p-6 sm:p-10 space-y-6 sm:space-y-10 mb-[20px] sm:mb-[10px]" id="content-area">
 
           <button
   onClick={onBack}
-  className="absolute bg-purple-500/20 border-purple-600/70 shadow-[0_0_10px_rgba(128,0,128,0.7)] text-purple-500 px-4 sm:px-5 py-2 text-sm sm:text-base rounded-lg font-semibold hover:bg-purple-600 hover:text-white transition-colors"
+  className="absolute bg-purple-500/20 border-purple-600/70 shadow-[0_0_10px_rgba(128,0,128,0.7)] text-purple-500 px-4 sm:px-5 py-1 sm:py-1 text-sm sm:text-base rounded-lg font-semibold hover:bg-purple-600 hover:text-white transition-colors"
   style={{
     left: "15px",
-    bottom: "-20px",       
+    bottom: "-35px",       
     fontSize: "12px",       
     display: "flex",       
     alignItems: "center",  
